@@ -1,19 +1,9 @@
 {
   "tasks": [
     {
-      "task": "who is who",
+      "task": "Hello Hello Hello",
       "completed": false,
-      "id": 2
-    },
-    {
-      "task": "who is that",
-      "completed": false,
-      "id": 3
-    },
-    {
-      "task": "who is this",
-      "completed": false,
-      "id": 4
+      "id": 1
     }
   ]
 }

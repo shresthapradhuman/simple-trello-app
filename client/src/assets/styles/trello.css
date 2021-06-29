@@ -1,0 +1,89 @@
+.trello {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.trello .form {
+  margin-top: 4rem;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 4px;
+}
+
+.trello .form button,
+.trello .form input {
+  font-size: x-large;
+  padding: 0.4rem;
+}
+
+.trello .form button {
+  -ms-flex-preferred-size: 19%;
+      flex-basis: 19%;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 255, 0.418);
+  color: #fff;
+  margin-right: 5px;
+}
+
+.trello .form input {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  background-color: transparent;
+}
+
+.trello .list {
+  border: 2px solid;
+  width: 510px;
+  height: 600px;
+  margin-top: 1rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.trello .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.1rem solid;
+}
+
+.trello .list-item p {
+  -ms-flex-preferred-size: 89%;
+      flex-basis: 89%;
+  font-size: large;
+}
+
+.trello .list-item span {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  cursor: pointer;
+  font-size: large;
+  color: green;
+}
+
+.trello .list-item span:last-child {
+  color: red;
+}
+/*# sourceMappingURL=trello.css.map */
